@@ -4,11 +4,13 @@ import java.util.Scanner;
 public class MirrorArray {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
+        System.out.println("This line is entered as a testing purpose");
         System.out.println("Enter the number of rows of an Array : ");
         int row = sc.nextInt();
         System.out.println("Enter the number of columns of an Array : ");
         int col = sc.nextInt();
         int [][] a=new int[row][col];
+        System.out.println("This is line is a part of Git practice");
         int [][] b = new int[row][col];
         System.out.println("Start Entering the Array Values....");
         for (int i = 0;i<row;i++){
